@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 function Todoform(props) {
-    const  [input,setInput] = useState('fellow');
+    const  [input,setInput] = useState('');
 
     const handleChange = e =>{
       setInput(e.target.value);
